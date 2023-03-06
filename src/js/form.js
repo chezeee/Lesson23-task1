@@ -1,4 +1,6 @@
 /* form.js */
+import { firstName, lastName } from "./index.js";
+
 export const getFullName = () => {
-  // your code
+  return `${firstName.value} ${lastName.value}`;
 };
